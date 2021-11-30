@@ -62,7 +62,7 @@ export default {
       name: 'tags',
       title: 'Tags',
       type: 'array',
-      of: ['string']
+      of: [{type: 'string'}]
     }
   ],
 
