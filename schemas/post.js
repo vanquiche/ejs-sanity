@@ -58,6 +58,12 @@ export default {
       type: 'boolean',
       initialValue: false
     },
+    {
+      name: 'tags',
+      title: 'Tags',
+      type: 'array',
+      of: ['string']
+    }
   ],
 
   preview: {
